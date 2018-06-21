@@ -1,3 +1,7 @@
+import 'core-js/es6/map';   // Required polyfill for <=IE11, from npm core-js package.
+import 'core-js/es6/set';
+import 'raf/polyfill';    // Required polyfill for request-animation-frame from raf package.
+
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
