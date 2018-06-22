@@ -119,6 +119,7 @@ function Square(props) {
         <div className="game">
           <div className="game-board">
             <Board width={8} height={8} />
+            <Board width={3} height={3} />
           </div>
           <div className="game-info">
             <div>{/* status */}</div>
